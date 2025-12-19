@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f6fb;
+      color: #333;
+    }
+
+    /* Navbar */
+    header {
+      background: #111;
+      padding: 12px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h2 {
+      color: #fff;
+      font-size: 20px;
+    }
+
+    nav a {
+      color: #ccc;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    /* About Section */
+    .about-hero {
+      min-height: 60vh;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .about-content {
+      max-width: 800px;
+    }
+
+    .about-content h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+    }
+
+    .about-content p {
+      font-size: 16px;
+      line-height: 1.7;
+      opacity: 0.95;
+      margin-bottom: 15px;
+    }
+
+    /* Extra Section */
+    .values {
+      padding: 60px 20px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .values h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #1e3c72;
+    }
+
+    .value-box {
+      max-width: 800px;
+      margin: auto;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .about-content h1 {
+        font-size: 30px;
+      }
+
+      header {
+        padding: 12px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <h2>MyWebsite</h2>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Hero -->
+  <section class="about-hero">
+    <div class="about-content">
+      <h1>About Us</h1>
+      <p>
+        We are passionate about creating clean, responsive, and user-friendly
+        web experiences that help individuals and businesses grow online.
+      </p>
+      <p>
+        Our focus is on simplicity, performance, and modern design principles
+        to deliver high-quality digital solutions.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
